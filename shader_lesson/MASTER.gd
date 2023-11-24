@@ -1,32 +1,19 @@
 extends Node2D
 
 @onready var intro_scene:PackedScene = preload("res://scenes/introcard.tscn")
-@onready var main_menu_scene:PackedScene = preload("res://scenes/main_menu.tscn")
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	#_add_a_scene_manually("intro_scene")
-	_add_a_scene_manually("main_menu")
+	_add_a_scene_manually("intro_scene", intro_scene)
 	pass # Replace with function body.
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
 
-
-func _add_a_scene_manually(scene):
+func _add_a_scene_manually(scene, passed_scene:PackedScene):
 	# This is like autoloading the scene, only
 	# it happens after already loading the main scene.
-	var new_scene
-	match scene:
-		"intro_scene":
-			new_scene = intro_scene.instantiate()
-		"main_menu":
-			new_scene = main_menu_scene.instantiate()
-	
-	
-	
+	var new_scene = passed_scene.instantiate()
+
 	if is_instance_valid($CanvasLayer/CRT_GROUP/Current_Scene):
 		$CanvasLayer/CRT_GROUP/Current_Scene.set_name("Old_Scene")
 		pass
