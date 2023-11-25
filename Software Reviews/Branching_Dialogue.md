@@ -35,6 +35,8 @@ Godot has addon libraries such as "Dialogic"(?) that can be used integrated with
 
 **************
 
+### 3rd Party
+
 Then there's "3rd party" software.  Most, if not all, of these are advertised as visual / interactive novels.
 
 [Arctic Draft](https://store.steampowered.com/app/570090/articydraft_3/) - Looks really clean and has a lot of options, geared towards the game dev. It has a demo but the full version also has a hefty price tag.
