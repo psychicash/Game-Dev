@@ -14,7 +14,8 @@ However, I will try to explain the systems and approaches so they can be adapted
 ## Game Concepts / Tools
 
 [Branching Dialogue](/Software%20Reviews/Branching_Dialogue.md)
-[Story Planning/Writing] (/Software%20Reviews/scrivner.md)
+
+[Story Planning/Writing](/Software%20Reviews/scrivner.md)
 
 
 ## Software Reviews
