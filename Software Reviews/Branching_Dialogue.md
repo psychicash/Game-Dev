@@ -28,14 +28,19 @@ Originally, many developers used spreadsheets like excel to track dialogues.
 
 [Technical Tools for Authoring Branching Dialoge](https://www.youtube.com/watch?v=oRHl2PLKwfY) - A video from the 2019 GDC shows Obsidian Entertainment's Carrie Patel & David Szymczyk talking about tools for making robust systems of dialogue
 
+
+## Native tools
+
 Some engines have built in tools or addons. For example...
 
 Unity has a built in branching dialogue tool.
 Godot has addon libraries such as "Dialogic"(?) that can be used integrated with the engine.
 
+
+
 **************
 
-### 3rd Party
+## 3rd Party
 
 Then there's "3rd party" software.  Most, if not all, of these are advertised as visual / interactive novels.
 
